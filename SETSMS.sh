@@ -41,7 +41,7 @@ SETSMS
 PHONE
 cd
 cd quack
-python quack --tool SMS --target ${phone} --threads 60 --timeout 90
+python quack --tool SMS --target ${phone} --threads 100 --timeout 130
 cd
 cd Impulse
-python impulse.py --method SMS --time 90 --threads 60 --target ${phone}
+python impulse.py --method SMS --time 130 --threads 100 --target ${phone}
